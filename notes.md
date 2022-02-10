@@ -29,3 +29,8 @@ iOS Font Sizing
 - instead of hardcoding font sizes, Apple encourages devs to built-in text styles
 - helps with a11y font sizing
 - eg. headlines, body, captions etc
+
+Class and Struct
+
+- differences between the two are more subtle in Swift
+- work mostly with structs in SwiftUI
