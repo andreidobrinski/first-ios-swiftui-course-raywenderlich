@@ -32,6 +32,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7767DD7127BD84690048820C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7767DD7227BD84760048820C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77FBDD3427B56FC20085BF38 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7767DD7327BD848A0048820C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				77FBDD3227B56FC20085BF38 /* bullseyeApp.swift */,
+				77FBDD3627B56FC60085BF38 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		77FBDD2627B56FC10085BF38 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +75,9 @@
 		77FBDD3127B56FC20085BF38 /* bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				77FBDD3227B56FC20085BF38 /* bullseyeApp.swift */,
-				77FBDD3427B56FC20085BF38 /* ContentView.swift */,
-				77FBDD3627B56FC60085BF38 /* Assets.xcassets */,
+				7767DD7327BD848A0048820C /* App */,
+				7767DD7227BD84760048820C /* Views */,
+				7767DD7127BD84690048820C /* Models */,
 				77FBDD3827B56FC60085BF38 /* Preview Content */,
 			);
 			path = bullseye;
