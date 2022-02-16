@@ -34,3 +34,7 @@ Class and Struct
 
 - differences between the two are more subtle in Swift
 - work mostly with structs in SwiftUI
+
+Functions
+
+- if a function body has one line of code and is a return, you can safely remove the `return` keyword as the return would be implied
