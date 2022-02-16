@@ -38,7 +38,7 @@ struct ContentView: View {
             .alert("Hello there!", isPresented: $alertIsVisible) {
               Button("Awesome!") { }
             } message: {
-              Text("This is my first pop-up")
+              Text("The slider's value is \(self.sliderValue).")
             }
         }
     }
