@@ -35,11 +35,11 @@ struct ContentView: View {
             }) {
                 Text("Hit me")
             }
-            .alert("Hello there!", isPresented: $alertIsVisible) {
-              Button("Awesome!") { }
-            } message: {
-              Text("The slider's value is \(self.sliderValue).")
-            }
+            .alert(isPresented: $alertIsVisible, content: {
+                var roundedValue: Int = Int(self.sliderValue.rounded())
+                return Alert(title: Text("Hello there!"), message: Text("The slider's value is \(self.sliderValue), rounded value is \(roundedValue)."),
+                             dismissButton: .default(Text("Awesome!")))
+            })
         }
     }
 }
